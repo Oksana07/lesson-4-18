@@ -5,6 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- вбудований файл стилей -->
+    <!-- <style>
+        h2 {
+            color: green;
+        }
+    </style> -->
+    <!-- зовнішній файл стилей -->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -12,7 +20,7 @@
     <header>
         <nav>
             <ul>
-                <li><a href="">LIFESTYLE</a></li>
+                <li><a href="./web-studia.html">LIFESTYLE</a></li>
                 <li><a href="">PHOTODIARY</a></li>
                 <li><a href="">MUSIC</a></li>
                 <li><a href="">TRAVEL</a></li>
@@ -21,15 +29,18 @@
     </header>
     <!-- фотоблог -->
     <main>
-        <h1>Фотоблог</h1>
-        <article>
+        <h1 class="title">Фотоблог</h1>
+        <article id="article">
             <img src="./img/img-1.jpg" alt="LIFESTYLE" width="420">
-            <a href="">LIFESTYLE</a>
-            <h2>More than just a music festival</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            <a href="" class="link">LIFESTYLE</a>
+            <!-- інлайновий стиль -->
+            <h2 style="color: red;">More than just a music festival</h2>
+            <p class="tex">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                labore et
                 dolore magna
                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
         </article>
+
         <article>
             <img src="./img/img-2.jpg" alt="LIFESTYLE" width="420">
             <a href="">LIFESTYLE</a>
@@ -38,6 +49,7 @@
                 dolore magna
                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
         </article>
+
         <article>
             <img src="./img/img-3.jpg" alt="PHOTODAIRY" width="420">
             <a href="">PHOTODAIRY</a>
@@ -46,6 +58,7 @@
                 dolore magna
                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
         </article>
+
         <article>
             <img src="./img/img-4.jpg" alt="PHOTODAIRY" width="420">
             <a href="">PHOTODAIRY</a>
@@ -54,6 +67,7 @@
                 dolore magna
                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
         </article>
+
         <article>
             <img src="./img/img-5.jpg" alt="LIFESTYLE" width="420">
             <a href="">LIFESTYLE</a>
@@ -62,6 +76,7 @@
                 dolore magna
                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
         </article>
+
         <article>
             <img src="./img/img-6.jpg" alt="LIFESTYLE" width="420">
             <a href="">LIFESTYLE</a>
@@ -72,6 +87,8 @@
         </article>
 
         <button type="button">Load more</button>
+
+        <button type="submit">submit</button>
 
     </main>
 
