@@ -1,0 +1,66 @@
+:root{
+    --ackent-color: #03A9F4;
+    --color-title:#f40b0b;
+}
+
+.title{
+    color: var(--color-title);
+}
+/* уныверсальний */
+/* * {
+    color: pink;
+} */
+
+/* теговий */
+h2{
+    color: rgba(161, 161, 202, 0.2);
+    font-size: 24px;
+    text-align: center;
+}
+
+a{
+text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+/* селектор класу */
+/* Селектор груп */
+/* .title,
+.tex,
+.link{
+    color: purple;
+} */
+
+/* Селектор ідентифікатора */
+#article{
+    background-color: thistle;
+}
+
+/* Селектор нащадку */
+body a{
+    color: yellow;
+}
+
+/* Дочірний селектор */
+header>nav{
+    background-color: rgba(0, 0, 255, 0.4);
+}
+
+/* Сусідній селектор */
+a+h2{
+    background-color: red;
+}
+
+/* Споріднений селектор */
+main~article {
+background-color: rgb(245, 163, 11);
+}
+
+/*Селектор атрибуту  */
+button[type='button']{
+    background-color: rgba(23, 202, 167, 0.3);
+    color: aliceblue;
+}
